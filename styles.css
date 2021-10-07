@@ -1,0 +1,338 @@
+body{
+    margin: auto;
+}
+#title{
+  position: fixed;
+  top: 0;
+}
+.nav-item:hover{
+  color: orangered;
+}
+.container-fluid{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text{
+  position: static;
+  margin-top: 50px;
+}
+.nav-item{
+  text-align: center;
+}
+
+
+.hero-text-style-1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 5;
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.hero-text-style-2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7rem;
+  font-weight:bold;
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+.hero-text-style-3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7rem;
+  font-weight:bold;
+  color: white;
+  position: absolute;
+  top: 330px;
+  left: 150px;
+}
+.hero-text-style-4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight:bold;
+  color: orangered;
+  position: absolute;
+  top: 380px;
+  left: 400px;
+}
+.invite{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 200px;
+}
+.read{
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  color: orangered;
+}
+.social{
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 30px; 
+}
+.social-1{
+  color: white;
+  position: absolute;
+  top: 450px;
+  left: 30px;
+}
+.social-2{
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 30px;
+}
+.social:hover,.social-1:hover,.social-2:hover{
+  color: orangered;
+}
+#about-us{
+  padding: 50px;
+}
+.h6{
+  color: orangered;
+  letter-spacing: .5em;
+}
+.club{
+  font-size: 3em;
+}
+.font-weight{
+  color: grey;
+}
+.season{
+  position: relative;
+}
+.hero-text-style-5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: white;
+  position: absolute;
+  top: 200px;
+  right: 700px;
+}
+.hero-text-style-6{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10em;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 120px;
+  right: 350px;
+}
+.h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 200px;
+  right: 260px;
+}
+.hero-text-style-7{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  color: orangered;
+  position: absolute;
+  top: 300px;
+  right: 300px;
+}
+.join{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: orangered;
+  position: absolute;
+  top: 450px;
+  right: 500px;
+}
+#features{
+  padding:7% 12%;
+  background-color: white;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%; 
+}  
+.info:hover{
+  color: orangered;
+}
+.fas{
+  line-height: 1em;
+}
+p{
+  color: grey;
+}
+#photos,#photos-2{
+  padding: 0 2%;
+}
+.second{
+  position:static;
+  /* top: 149px;
+  left: 160px; */
+   
+}
+.img-second{
+  margin-left: 153px;
+  margin-top: 149px;
+}
+.img-fourth{
+  margin-left: 70px;
+}
+.img-fifth{
+  margin-left: 110px;
+}
+.third{
+  padding-top: 2%;
+  
+  /* left: 5em; */
+}
+.fourth{
+  padding-top: 2%;
+  
+  /* left: 2em; */
+}
+.fifth{
+  padding-top: 2%;
+  
+  /* right: 3em; */
+}
+.quote-box{
+  position: relative;
+  top: 200px;
+}
+.quote{
+  color: orangered;
+}
+q{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  word-spacing: .6em;
+  color: grey;
+  line-height: 2em;
+}
+.quote-name{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  word-spacing: .6em;
+  font-weight: bold;
+}
+.next-game-body{
+  padding-left: 70px;
+}
+.next-game-section{
+  background-color:#202020;
+}
+.next-game{
+  font-family:'Montserrat', sans-serif ;
+  font-size: 5em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: orangered;
+}
+.next-game-team-logo{
+  display: inline-block;
+}
+.next-game-vs{
+  display: inline-block;
+  font-family:monospace;
+  font-size: 7rem;
+  opacity: 0.5;
+}
+.next-game-team{
+  display: inline-block;
+}
+.next-game-team-name{
+  display: inline-block;
+  color: white;
+  font-size: 30em;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.next-game-footer .btn{
+  margin-bottom: 10px;
+}
+.team-name{
+  font-size: 3rem;
+}
+.next-game-date{
+  color: white;
+  font-size: 2em;
+  padding-left: 470px;
+}
+.circle{
+  color: orangered;
+}
+.ticket{
+  padding: 30px 0 50px 600px;
+}
+.next-game-time{
+  color: white;
+  font-size: 2em; 
+}
+.hero-text-style-8{
+  display: inline-block;
+  color: white;
+}
+#testimonials{
+  padding: 7% 15%;
+}
+.email-input{
+  border: 0;
+  border-bottom:1px solid gray;
+  background-color: #202020;
+  
+
+  color: orangered;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  outline: none;
+  transition: border-bottom 0.1s;
+}
+.email-input:focus{
+  border-bottom: 1px solid orangered;
+  /* border-bottom: orangered; */
+}
+
+
+#contact-us{
+  font-family: 'Oswald', sans-serif ;
+  background-color: #202020;
+  color: white;
+  padding: 5% 10%;
+}
+.white{
+  color: white;
+  line-height: 2em;
+  word-spacing: normal;
+  margin-right: 60px;
+}
+.orange{
+  color: orangered;
+}
+.sub{
+  color: orangered;
+}
+.social-link{
+  word-spacing: 30px;
+  margin-right: 20px;
+}
+.form{
+  margin: 5% 30%;
+}
